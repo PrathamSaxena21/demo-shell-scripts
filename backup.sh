@@ -1,10 +1,10 @@
 #!/bin/bash
 
-<<info
-This shell script will take periodic backups
-
-eg. ./backup.sh <source> <destination>
-
+<<info 
+this shell script willl take periodic backups
+eg.
+./backup.sh <source> <dest>
+this can also be used with cron
 info
 
 src=$1
